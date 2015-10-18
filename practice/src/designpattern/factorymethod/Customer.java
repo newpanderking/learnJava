@@ -16,14 +16,12 @@ public class Customer {
         if (car == null) {
             System.out.println("Procuct BmwBusiness failed!");
         }
-
         //生产一个奥迪
         carFactory = new AudiFactory();
         Car car1 = carFactory.createCar();
         if (car1 == null) {
             System.out.println("Product AudiBusiness failed!");
         }
-
         //生产一个奔驰
         carFactory = new BenzFactory();
         Car car2 = carFactory.createCar();
