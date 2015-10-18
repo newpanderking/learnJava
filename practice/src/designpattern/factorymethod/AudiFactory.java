@@ -6,7 +6,7 @@ package designpattern.factorymethod;
 
 /**
  * @author admin
- * @version $Id AudiFactory.java, v 0.1 2015-10-18 下午1:35 admin Exp $$
+ * @version $Id SportsCarFactory.java, v 0.1 2015-10-18 下午1:35 admin Exp $$
  */
 public class AudiFactory implements CarFactory {
     @Override

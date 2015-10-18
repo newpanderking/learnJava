@@ -11,11 +11,11 @@ package designpattern.simpefactory;
  */
 public class CarFactory {
     public static Car createCar(String type){
-        if (type.equals("Audi")){
+        if (type.equals("AudiBusiness")){
             return new Audi();
-        }else if (type.equals("Benz")){
+        }else if (type.equals("BenzBusiness")){
             return new Benz();
-        }else if (type.equals("Bmw")){
+        }else if (type.equals("BmwBusiness")){
             return new Bmw();
         }
         return null;

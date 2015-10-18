@@ -11,21 +11,21 @@ package designpattern.simpefactory;
 public class Customer {
     public static void main(String[] args) {
         //生产一个宝马
-        Car car = CarFactory.createCar("Bmw");
+        Car car = CarFactory.createCar("BmwBusiness");
         if (car == null){
-            System.out.println("Procuct Bmw failed!");
+            System.out.println("Procuct BmwBusiness failed!");
         }
 
         //生产一个奥迪
-        Car car1 = CarFactory.createCar("Audi");
+        Car car1 = CarFactory.createCar("AudiBusiness");
         if (car1 == null){
-            System.out.println("Product Audi failed!");
+            System.out.println("Product AudiBusiness failed!");
         }
 
         //生产一个奔驰
-        Car car2 = CarFactory.createCar("Benz");
+        Car car2 = CarFactory.createCar("BenzBusiness");
         if (car2 == null){
-            System.out.println("Product Benz failed!");
+            System.out.println("Product BenzBusiness failed!");
         }
 
         //生产一个大众

@@ -2,14 +2,14 @@
  * Open Free.
  * Code for Open Community, free to use!
  */
-package designpattern.factorymethod;
+package designpattern.abstractfactory;
 
 /**
  * @author admin
  * @version $Id AudiBusiness.java, v 0.1 2015-10-18 下午1:06 admin Exp $$
  */
-public class Audi implements Car {
-    public Audi() {
-        System.out.println("Product AudiBusiness!");
+public class AudiSports extends SportsCar {
+    public AudiSports() {
+        System.out.println("Product AudiSports!");
     }
 }
