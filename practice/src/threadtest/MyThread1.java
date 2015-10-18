@@ -17,11 +17,9 @@ public class MyThread1 implements Runnable {
     @Override
     public void run() {
         System.out.println(threadName + ":开始执行线程。");
-
         Employee employee = new Employee();
         employee.setCallBack(new Boss());
         employee.doWork();
-
         System.out.println(threadName + ":结束执行线程。");
     }
 
