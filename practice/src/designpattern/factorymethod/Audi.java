@@ -6,7 +6,7 @@ package designpattern.factorymethod;
 
 /**
  * @author admin
- * @version $Id AudiBusiness.java, v 0.1 2015-10-18 下午1:06 admin Exp $$
+ * @version $Id Audi.java, v 0.1 2015-10-18 下午1:06 admin Exp $$
  */
 public class Audi implements Car {
     public Audi() {
